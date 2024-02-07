@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DataStore"
+  DTS:DTSID="{2774DF68-84EC-4099-BF48-3062666D53AA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=aei-sql2.avans.nl;User ID=student;Initial Catalog=AdventureBikes ERP;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-MDM-2206322-{2774DF68-84EC-4099-BF48-3062666D53AA}aei-sql2.avans.nl.AdventureBikes ERP.student;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuO0z9+EjmkW9ApJjJC+qVAAAAAACAAAAAAAQZgAAAAEAACAAAAB+BRE7LfU8O8yr7i9ZY1qOGn83YHccWSqo4BiIkBf0fAAAAAAOgAAAAAIAACAAAADoqafIeoKELcnhfWq6+VRiOIcCRPxAIphfpY5xDd2TL4AAAADnADymWgBrCCtqJwEp4VeijmWd4KyxhzSDBPM88lmrzG56Ksx8wv8v1SptfGeycvm7jpuNJrXU2m56zcW1rHFrnaT94HwtOAOiiC0M3l/QJZPWVdKUNMCm1wuTOO81fUmDW2EvRKMEdUGCmdkqimBkKndvEY9wmEQY1kTd/7wHRUAAAAA+FSafjojPHqx3Sx5dG6WlvpqYMYdjPEzu39u/LgFssK8lSWuVGBjcaLtEZ7oVsSZi8Ze8UAZiNAvSdFzAn4Cs</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
